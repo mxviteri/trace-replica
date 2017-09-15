@@ -1,0 +1,212 @@
+body {
+  background: black !important;
+}
+
+label, input {
+  display: block;
+}
+
+button {
+  margin-top: 10px !important;
+}
+
+form {
+  border: 2px dashed gray;
+  padding: 10px;
+}
+
+.main-img {
+  height: 200px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: gray;
+  background-image: url("../img/sample-background.jpg");
+}
+
+.main-img > h1 {
+  line-height: 200px;
+}
+
+.beige {
+  background: beige;
+}
+
+.azure {
+  background: azure;
+}
+
+.header {
+  height: 15vh;
+  background-color: white;
+}
+
+.left {
+  height: 15vh;
+  display: flex;
+  align-items: center;
+}
+
+.left > a {
+  display: block;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.logo {
+  position: relative;
+  width: 100%;
+  height: 90%;
+  margin: 0 auto;
+}
+
+.right {
+  height: 15vh;
+}
+
+.right > ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  line-height: 115px;
+}
+
+.right > ul > li > a {
+  color: black;
+  text-transform: capitalize;
+}
+
+.parallax {
+    position: relative;
+    /* The image used */
+    background-image: url("../img/trace-austin-dining-room.jpg");
+
+    /* Set a specific height */
+    height: 85vh;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallaxAbout {
+    position: relative;
+    /* The image used */
+    background-image: url("../img/trace-plate.jpg");
+
+    /* Set a specific height */
+    height: 25vh;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.aboutPitch {
+  margin: 50px;
+  position: absolute;
+  background-color: rgba(255,255,255,.8);
+  text-transform: uppercase;
+}
+
+.aboutPitch > h1 {
+  text-align: center;
+  padding: 10px;
+}
+
+.thePitch {
+  width: 50%;
+  margin: 50px;
+  position: absolute;
+}
+
+.theTitle {
+  background-color: rgba(255,255,255,.8);
+  text-transform: uppercase;
+}
+
+.theTitle > h1 {
+  text-align: center;
+  padding: 10px;
+}
+
+.theDets {
+  background-color: rgba(255,255,255,.8);
+  padding: 20px;
+}
+
+.description {
+  padding: 100px;
+  background: white;
+}
+
+.desc {
+  font-size: 20px;
+  line-height: 35px;
+  margin-bottom: 20px;
+}
+
+.down-button {
+  font-size: 40px;
+}
+
+.bottom {
+  position: absolute;
+  height: 50px;
+  bottom: 0;
+  width: 100%;
+}
+
+.bottom > a {
+  color: white;
+  display: table;
+  margin: auto;
+}
+
+.bottom > a:hover {
+  cursor: pointer;
+}
+
+.toTop {
+  position: absolute;
+  height: 50px;
+  bottom: 0;
+  width: 100%;
+}
+
+.toTop > a {
+  color: black;
+  display: table;
+  margin: auto;
+}
+
+.toTop > a:hover {
+  cursor: pointer;
+}
+
+.desc-wrapper {
+  position: relative;
+  height: 100vh;
+  background: white;
+}
+
+.footer {
+  padding: 200px;
+  text-align: center;
+}
+
+.footer > div {
+  color: white;
+}
+
+.footer h2 {
+  margin-bottom: 50px;
+}
+
+.footer p {
+  margin-bottom: 25px;
+}
