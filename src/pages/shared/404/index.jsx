@@ -10,7 +10,7 @@ class NotFound extends React.Component {
 
   render() {
     return (
-      <h1>Not today.. Satan!</h1>
+      <h1>Custom 404 Page</h1>
     );
   }
 }

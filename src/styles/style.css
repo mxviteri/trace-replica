@@ -91,11 +91,9 @@ form {
     background-size: cover;
 }
 
-.parallaxAbout {
+.parallaxEffect {
     position: relative;
-    /* The image used */
-    background-image: url("../img/trace-plate.jpg");
-
+    /* The image used is coming from inline style */
     /* Set a specific height */
     height: 25vh;
 

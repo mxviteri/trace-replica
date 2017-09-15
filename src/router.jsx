@@ -7,6 +7,7 @@ const Route = require('react-router').Route;
 const browserHistory = require('react-router').browserHistory;
 const Home = require('./pages/home/index.jsx');
 const About = require('./pages/about/index.jsx');
+const Reservations = require('./pages/reservations/index.jsx');
 const NotFound = require('./pages/shared/404/index.jsx');
 
 class AppRouter extends React.Component {
@@ -19,6 +20,7 @@ class AppRouter extends React.Component {
       <Router history={browserHistory}>
         <Route path='/' component={Home} />
         <Route path='/about' component={About} />
+        <Route path='/reservations' component={Reservations} />
         <Route path='*' component={NotFound} />
       </Router>
     );

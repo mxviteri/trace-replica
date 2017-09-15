@@ -15,8 +15,8 @@ class PageHeader extends React.Component {
 
     // Add future links lowercase with hyphens
     ['about', 'menus', 'reservations', 'private-dining', 'events-calendar', 'location']
-    .forEach((item) => {
-      nav.push(<li><Link to={`/${item}`}>{item.replace('-', ' ')}</Link></li>);
+    .forEach((item, index) => {
+      nav.push(<li key={index}><Link to={`/${item}`}>{item.replace('-', ' ')}</Link></li>);
     });
 
     return (

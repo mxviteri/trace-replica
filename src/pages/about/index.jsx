@@ -4,6 +4,7 @@ const React = require('react');
 const ReactDOM = require('react-dom');
 const PageHeader = require('../shared/header/index.jsx');
 const PageFooter = require('../shared/footer/index.jsx');
+const img = require('../../img/trace-plate.jpg');
 
 class About extends React.Component {
   constructor(props) {
@@ -14,7 +15,8 @@ class About extends React.Component {
     return (
       <div>
         <PageHeader />
-        <div className="parallaxAbout">
+        {/*Inline style below keeps parallaxEffect class independent of images*/}
+        <div className="parallaxEffect" style={{backgroundImage: 'url(' + img + ')'}}>
           <div className="row">
             <div className="col-md-4 aboutPitch">
               <h1>Meet our team</h1>
